@@ -32,9 +32,10 @@ do{
                         break
                     }
         case 2:
+            totalPecas = peca1 + peca2
             console.log ("Total de Peca 1 =" + peca1 + "\n")
             console.log ("Total de Peca 2 =" + peca2 + "\n")
-            console.log ("Total geral de pecas = " + peca1+peca2 + "\n" )
+            console.log ("Total geral de pecas = " + totalPecas + "\n" )
             break
         default:     
             console.log ("Opção Invalida. Escolha entre 0 e 2. \n")
